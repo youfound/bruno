@@ -1,0 +1,1068 @@
+/* 
+Theme Name: Hello Elementor Child
+Theme URI: https://github.com/elementor/hello-theme-child/
+Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
+Author: Elementor Team
+Author URI: https://elementor.com/
+Template: hello-elementor
+Version: 2.0.0
+Text Domain: hello-elementor-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+.income-calculator-wrapper {
+    background-color: #fff;
+    border: 1px solid #FFC400;
+}
+.elementor-10 .elementor-element.elementor-element-2cb46d5 .elementor-custom-embed-play svg {
+	position: relative;
+	z-index: 99;
+	top: -10px;
+	left: 5px;
+}
+.elementor-13 .elementor-element.elementor-element-a6b0e5c .elementor-custom-embed-play svg {
+	position: relative;
+	z-index: 99;
+	top: -10px;
+	left: 5px;
+}
+.elementor-12 .elementor-element.elementor-element-6d1ec6a .elementor-custom-embed-play svg {
+	position: relative;
+	z-index: 99;
+	top: -10px;
+	left: 2px;
+}
+
+/* Add your custom styles here */
+body.dark-mode .income-calculator-wrapper {
+    background-color: transparent;
+    border: 1px solid #FFC400;
+}
+
+body.dark-mode .elementor-10 .elementor-element.elementor-element-4946f71:not(.elementor-motion-effects-element-type-background){
+    background-position: center;
+	background-image: url('../hello-theme-child/assets/img/dark-counter-bg.png');
+    background-size: cover;
+}
+body.dark-mode .elementor-10 .elementor-element.elementor-element-de38cc9:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+	background-image: url('../hello-theme-child/assets/img/counter-update-one.png');
+	background-color: transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+body.dark-mode .elementor-10 .elementor-element.elementor-element-0135ace:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap{
+    background-image: url('../hello-theme-child/assets/img/counter-update-two.png');
+	background-color: transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+body.dark-mode .elementor-10 .elementor-element.elementor-element-cf7ea87:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap{
+    background-image: url('../hello-theme-child/assets/img/counter-update-three.png');
+	background-color: transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+body.dark-mode .elementor-10 .elementor-element.elementor-element-d5d4c54:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap{
+    background-image: url('../hello-theme-child/assets/img/counter-update-two.png');
+	background-color: transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+body.dark-mode .elementor-10 .elementor-element.elementor-element-1e2787a:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap{
+    background-image: url('../hello-theme-child/assets/img/counter-update-three.png');
+	background-color: transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+body.dark-mode .elementor-counter .elementor-counter-number{
+    color: #fff;
+}
+body.dark-mode .elementor-counter .elementor-counter-title{
+    color: #fff !important;
+}
+body.dark-mode .elementor-10 .elementor-element.elementor-element-deceeeb .elementor-icon svg {
+	height: 80px;
+	border-radius: 50px;
+}
+body.dark-mode .elementor-10 .elementor-element.elementor-element-e671891:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+	background-image: url('../hello-theme-child/assets/img/step-one.png');
+	background-color: transparent;
+	background-position: inherit;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+body.dark-mode .elementor-10 .elementor-element.elementor-element-306c694:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+	background-image: url('../hello-theme-child/assets/img/step-two.png');
+	background-color: transparent;
+	background-position: inherit;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+body.dark-mode .elementor-10 .elementor-element.elementor-element-1d7a846:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap{
+	background-image: url('../hello-theme-child/assets/img/step-one.png');
+	background-color: transparent;
+	background-position: inherit;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+body.dark-mode .home-testimonial-item {
+	background-image: url('../hello-theme-child/assets/img/testimoniyal.png');
+	background-color: transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+body.dark-mode .elementor-10 .elementor-element.elementor-element-f8b5431:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap{
+    background-image: url('../hello-theme-child/assets/img/defi-platform.png');
+	background-color: transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+body.dark-mode .elementor-10 .elementor-element.elementor-element-a1c44fb:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap{
+    background-image: url('../hello-theme-child/assets/img/custodial.png');
+	background-color: transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+} 
+body.dark-mode .elementor-10 .elementor-element.elementor-element-a4226b8:not(.elementor-motion-effects-element-type-background){
+    background-image: url('../hello-theme-child/assets/img/home-page-best-way-bg.png');
+	background-color: transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+body.dark-mode .elementor-11 .elementor-element.elementor-element-801eee0:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+	background-image: url('../hello-theme-child/assets/img/why-choose-one.png');
+	background-color: transparent;
+	background-position: center !important;
+	background-repeat: no-repeat;
+	background-size: 100% 100% !important; 
+}
+body.dark-mode .elementor-11 .elementor-element.elementor-element-801eee0:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap:hover{
+    background: #0022d0;
+}
+body.dark-mode .why-choose-one .ol-icon-box span {
+	background: #514d44;
+}
+body.dark-mode .elementor-11 .elementor-element.elementor-element-6bbefa8:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+	background-image: url('../hello-theme-child/assets/img/why-choose-one.png');
+	background-color: transparent;
+	background-position: center !important;
+	background-repeat: no-repeat;
+	background-size: 100% 100% !important; 
+}
+body.dark-mode .elementor-11 .elementor-element.elementor-element-6bbefa8:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap:hover {
+	background: #0022d0;
+}
+body.dark-mode .elementor-11 .elementor-element.elementor-element-ac4a29c:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+	background-image: url('../hello-theme-child/assets/img/why-choose-two.png');
+	background-color: transparent;
+	background-position: center !important;
+	background-repeat: no-repeat;
+	background-size: 100% 100% !important; 
+}
+body.dark-mode .elementor-11 .elementor-element.elementor-element-ac4a29c:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap:hover{
+    background: #0022d0;
+}
+body.dark-mode .why-choose-three .ol-icon-box span {
+	background: #2f395a;
+}
+body.dark-mode .elementor-11 .elementor-element.elementor-element-43fcb45:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap{
+	background-image: url('../hello-theme-child/assets/img/why-choose-one.png');
+	background-color: transparent;
+	background-position: center !important;
+	background-repeat: no-repeat;
+	background-size: 100% 100% !important; 
+}
+body.dark-mode .elementor-11 .elementor-element.elementor-element-43fcb45:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap:hover{
+    background: #0022d0;
+}
+body.dark-mode .elementor-11 .elementor-element.elementor-element-213a85c:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap{
+	background-image: url('../hello-theme-child/assets/img/why-choose-two.png');
+	background-color: transparent;
+	background-position: center !important;
+	background-repeat: no-repeat;
+	background-size: 100% 100% !important; 
+}
+body.dark-mode .elementor-11 .elementor-element.elementor-element-213a85c:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap:hover{
+    background: #0022d0;
+}
+body.dark-mode .elementor-11 .elementor-element.elementor-element-36fece4:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap{
+	background-image: url('../hello-theme-child/assets/img/why-choose-one.png');
+	background-color: transparent;
+	background-position: center !important;
+	background-repeat: no-repeat;
+	background-size: 100% 100% !important; 
+}
+body.dark-mode .elementor-11 .elementor-element.elementor-element-36fece4:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap:hover{
+    background: #0022d0;
+}
+body.dark-mode .elementor-11 .elementor-element.elementor-element-3cfc313:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+	background-image: url('../hello-theme-child/assets/img/why-choose-two.png');
+    background-color: transparent;
+    background-position: center !important;
+	background-repeat: no-repeat;
+	background-size: 100% 100% !important; 
+}
+body.dark-mode .elementor-11 .elementor-element.elementor-element-3cfc313:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap:hover{
+    background: #0022d0;
+}
+body.dark-mode .elementor-11 .elementor-element.elementor-element-cce354a:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+	background-image: url('../hello-theme-child/assets/img/why-choose-one.png');
+    background-color: transparent;
+    background-position: center !important;
+	background-repeat: no-repeat;
+	background-size: 100% 100% !important; 
+}
+body.dark-mode .elementor-11 .elementor-element.elementor-element-cce354a:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap:hover{
+    background: #0022d0;
+}
+body.dark-mode .price-title-wrapper h3 {
+	background-image: url('../hello-theme-child/assets/img/price-title-bg.png');
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #fff;
+    border: none;
+}
+body.dark-mode .ol-price-table-wrapper {
+    position: relative;
+	background-image: url('../hello-theme-child/assets/img/price-bg.png');
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+}
+body.dark-mode .ol-price-table-wrapper:hover::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    top: 0;
+    left: 0;
+    background-image: url('../hello-theme-child/assets/img/price-circul.png');
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+body.dark-mode .ol-exclisive-plan .ol-price-table-wrapper::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    top: 0;
+    left: 0;
+    background-image: url('../hello-theme-child/assets/img/price-circul.png');
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+
+
+body.dark-mode .elementor-13 .elementor-element.elementor-element-3f3e455 > .elementor-element-populated {
+	background-image: url('../hello-theme-child/assets/img/investmrnt-bg.png');
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+}
+body.dark-mode .elementor-13 .elementor-element.elementor-element-b85078a > .elementor-element-populated {
+	background-image: url('../hello-theme-child/assets/img/investmrnt-bg.png');
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+}
+body.dark-mode  .elementor-13 .elementor-element.elementor-element-1b83bd4 > .elementor-element-populated {
+	background-image: url('../hello-theme-child/assets/img/investmrnt-bg.png');
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+}
+body.dark-mode .elementor-12 .elementor-element.elementor-element-cf553a5:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+	background-image: url('../hello-theme-child/assets/img/referral-program.png');
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+body.dark-mode .referral-program .elementor-widget-container img {
+	visibility: hidden;
+}
+body.dark-mode .referral-program .el-counter-wrapper .elementor-counter {
+	background: rgba(255, 255, 255, 0.05);
+}
+body.dark-mode .referral-program .el-counter-wrapper .elementor-counter .elementor-counter-number-suffix{
+    color: #fff;
+}
+body.dark-mode .elementor-12 .elementor-element.elementor-element-63d1ab8 > .elementor-element-populated{
+    background-image: url('../hello-theme-child/assets/img/icon_box_2.png');
+    background-color: transparent;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0px solid transparent !important;
+    box-shadow: 0px 22px 44px 0px rgba(0, 0, 0, 0.05);
+}
+body.dark-mode .elementor-12 .elementor-element.elementor-element-565993c:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap{
+	background-image: url('../hello-theme-child/assets/img/referral-program.png');
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+body.dark-mode .elementor-12 .elementor-element.elementor-element-238ca9d:not(.elementor-motion-effects-element-type-background){
+	background-image: url('../hello-theme-child/assets/img/note-bg.png');
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+body.dark-mode .elementor-12 .elementor-element.elementor-element-f9e1140 > .elementor-element-populated {
+	background-image: url('../hello-theme-child/assets/img/step-one.png');
+    background-color: transparent;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+body.dark-mode .elementor-12 .elementor-element.elementor-element-63d1ab8 > .elementor-element-populated {
+	background-image: url('../hello-theme-child/assets/img/step-two.png');
+    background-color: transparent;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+body.dark-mode .elementor-12 .elementor-element.elementor-element-01107b4 > .elementor-element-populated {
+	background-image: url('../hello-theme-child/assets/img/step-one.png');
+    background-color: transparent;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+body.dark-mode .elementor-12 .elementor-element.elementor-element-1f38c99:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap{
+	background-image: url('../hello-theme-child/assets/img/promote-brunoEx.png');
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+}
+body.dark-mode .elementor-12 .elementor-element.elementor-element-3e9e930:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap{
+	background-image: url('../hello-theme-child/assets/img/earn-money.png');
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+}
+body.dark-mode .ol-faq-tab-wrapper .elementor-accordion-item .elementor-tab-content{
+    position: relative;
+}
+body.dark-mode .ol-faq-tab-wrapper .elementor-accordion-item .elementor-tab-content::after {
+	position: absolute;
+	content: '';
+	width: 98%;
+	height: 1px;
+	top: 0;
+	left: 15px;
+	background: rgba(255, 255, 255, 0.10);
+}
+body.dark-mode .elementor-101 .footer-gradient-wrapper-bg.elementor-element.elementor-element-0bcf2a3 > .elementor-background-overlay{
+	background-image: url('../hello-theme-child/assets/img/footer-gradient.png') !important;
+}
+body.dark-mode .elementor-13 .elementor-element.elementor-element-1403cec:not(.elementor-motion-effects-element-type-background) {
+	background-color: #000815;
+	padding: 80px 0px 0px 0px;
+}
+body.dark-mode .income-calculator-left select{
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.03);
+    color: #fff;
+}
+body.dark-mode .income-calculator-left option{
+    color: #000;
+}
+body.dark-mode .plan-display-value h6 {
+	color: #fff;
+}
+body.dark-mode .income-calculator-wrapper h2 {
+	color: #fff;
+}
+body.dark-mode .income-calculator-slide-input input {
+    color: #fff !important;
+	border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.10) !important;
+    background: rgba(255, 255, 255, 0.03);
+}
+body.dark-mode .monthly-income {
+	color: rgba(255, 255, 255, 0.50);
+}
+body.dark-mode .income-calculator-slide-info h6 {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+.elementor-10 .elementor-element.elementor-element-de38cc9:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap{
+    background-image: url('../hello-theme-child/assets/img/counter-white-update-one.png');
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.elementor-10 .elementor-element.elementor-element-0135ace:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap{
+	background-image: url('../hello-theme-child/assets/img/counter-white-update-two.png');
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.elementor-10 .elementor-element.elementor-element-cf7ea87:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap{
+    background-image: url('../hello-theme-child/assets/img/counter-white-update-three.png');
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.elementor-10 .elementor-element.elementor-element-d5d4c54:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap{
+    background-image: url('../hello-theme-child/assets/img/counter-white-update-four.png');
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.elementor-10 .elementor-element.elementor-element-1e2787a:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap{
+    background-image: url('../hello-theme-child/assets/img/counter-white-update-three.png');
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+body.dark-mode .elementor-10 .elementor-element.elementor-element-b961e8a:not(.elementor-motion-effects-element-type-background){
+	background: rgba(255, 255, 255, 0.05); 
+}
+body.dark-mode .filters.filter-button-group ul li button{
+    color: #fff;
+}
+body.dark-mode .filter-content.grid {
+	background-image: url('../hello-theme-child/assets/img/portfolio-d-bg.png');
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+body.dark-mode .filter-content-info h3 {
+	color: #fff;
+}
+body.dark-mode .filter-content-descriptions p {
+	color: #fff;
+}
+body.dark-mode .header-menu-wrapper .elementor-container {
+	background-image: url('../hello-theme-child/assets/img/header-dark-bg.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 0px 20px 0px 15px;
+}
+body.dark-mode .header-menu-wrapper-image-disable .elementor-container{
+    background-image: none;
+}
+body.dark-mode .portfolio-button-prev.swiper-button-prev {
+    background-image: url('../hello-theme-child/assets/img/portfolio-arrow.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+body.dark-mode .ol-faq-tab-wrapper .elementor-tabs-wrapper {
+	background-image: url('../hello-theme-child/assets/img/faq-tab-bg.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-radius: 50px;
+	padding: 7px 0px;
+	width: 800px;
+	margin: 0 auto;
+	border: none;
+}
+.ol-header-logo .hfe-site-logo-set img {
+	max-width: 175px !important;
+	transform: translateY(0px) !important;
+}
+
+body.dark-mode .elementor-1067 .elementor-element.elementor-element-857ba8e .elementor-accordion-icon svg {
+	fill: #010102;
+}
+body.dark-mode .ol-button-icon-c .elementor-button-icon svg {
+	fill: #fff;
+}
+
+body.dark-mode .elementor-13 .elementor-element.elementor-element-6d2cb5e:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap{
+	 background-image: url('../hello-theme-child/assets/img/why-choose-one.png');
+	 background-color: transparent;
+	 background-position: center !important;
+	 background-repeat: no-repeat;
+	 background-size: 100% 100% !important;
+}
+body.dark-mode .elementor-13 .elementor-element.elementor-element-6d2cb5e:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap:hover {
+	background: #0022d0;
+}
+
+body.dark-mode .elementor-13 .elementor-element.elementor-element-d1eadfc:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap{
+	background-image: url('../hello-theme-child/assets/img/why-choose-two.png');
+    background-color: transparent;
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100% !important;
+}
+body.dark-mode .elementor-13 .elementor-element.elementor-element-d1eadfc:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap:hover {
+	background: #0022d0;
+}
+body.dark-mode .elementor-13 .elementor-element.elementor-element-ffc3840:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+	 background-image: url('../hello-theme-child/assets/img/why-choose-one.png');
+	 background-color: transparent;
+	 background-position: center !important;
+	 background-repeat: no-repeat;
+	 background-size: 100% 100% !important;
+}
+body.dark-mode .elementor-13 .elementor-element.elementor-element-ffc3840:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap:hover {
+	background: #0022d0;
+}  
+
+body.dark-mode .elementor-36 .elementor-element.elementor-element-4db46b7 .menu-item.current-menu-item a.hfe-menu-item{
+	color: #f1bd0f !important; 
+}
+body.dark-mode .elementor-12 .elementor-element.elementor-element-c59a53a:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap{
+	background-image: url('../hello-theme-child/assets/img/why-choose-one.png');
+	background-color: transparent;
+	background-position: center !important;
+	background-repeat: no-repeat;
+	background-size: 100% 100% !important;
+}
+body.dark-mode .elementor-12 .elementor-element.elementor-element-c59a53a:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap:hover {
+	background: #0022d0;
+}
+body.dark-mode .elementor-12 .elementor-element.elementor-element-3969ca4:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap{
+	background-image: url('../hello-theme-child/assets/img/why-choose-two.png');
+	background-color: transparent;
+	background-position: center !important;
+	background-repeat: no-repeat;
+	background-size: 100% 100% !important;
+}
+body.dark-mode .elementor-12 .elementor-element.elementor-element-3969ca4:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap:hover {
+	background: #0022d0;
+}
+body.dark-mode .elementor-12 .elementor-element.elementor-element-09b725c:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap{
+	background-image: url('../hello-theme-child/assets/img/why-choose-one.png');
+	background-color: transparent;
+	background-position: center !important;
+	background-repeat: no-repeat;
+	background-size: 100% 100% !important;
+}
+body.dark-mode .elementor-12 .elementor-element.elementor-element-09b725c:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap:hover {
+	background: #0022d0;
+} 
+.elementor-icon-list-item a span sup {
+	color: #F6B62E !important;
+	font-size: 10px;
+	margin-left: 2px;
+	transform: translateY(-5px);
+	display: inline-block;
+}
+
+.elementor-element-21f0b1b.rating-for-dark {
+	display: none !important;
+}
+
+
+
+
+@media (min-width: 1280px) and (max-width: 1367px) {
+    .elementor-10 .elementor-element.elementor-element-db5cc3c {
+        margin-top: 100px !important;
+    }
+    .elementor-10 .elementor-element.elementor-element-2edb88a {
+        margin-top: 125px;
+        margin-bottom: 0px;
+    }
+}
+@media (min-width: 1280px) and (max-width: 1310px) {
+    .elementor-10 .elementor-element.elementor-element-2edb88a {
+        margin-top: 85px;
+        margin-bottom: 0px;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .elementor-10 .elementor-element.elementor-element-db5cc3c {
+        margin-top: 75px;
+        margin-bottom: 0px;
+    }
+    .elementor-10 .elementor-element.elementor-element-2edb88a {
+        margin-top: 75px;
+        margin-bottom: 0px;
+    }
+    body.dark-mode .elementor-10 .elementor-element.elementor-element-f8b5431:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    body.dark-mode .elementor-10 .elementor-element.elementor-element-a1c44fb:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    body.dark-mode .elementor-13 .elementor-element.elementor-element-3f3e455 > .elementor-element-populated {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border: none;
+    }
+    body.dark-mode .elementor-13 .elementor-element.elementor-element-b85078a > .elementor-element-populated {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border: none;
+    }
+    body.dark-mode .elementor-13 .elementor-element.elementor-element-1b83bd4 > .elementor-element-populated {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border: none;
+    }
+    body.dark-mode .elementor-13 .elementor-element.elementor-element-3f3e455 > .elementor-element-populated {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border: none;
+    }
+    body.dark-mode .elementor-12 .elementor-element.elementor-element-cf553a5:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border: none;
+    }
+    body.dark-mode .elementor-12 .elementor-element.elementor-element-565993c:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border: none;
+    }
+    body.dark-mode .elementor-12 .elementor-element.elementor-element-1f38c99:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border: none;
+    }
+    body.dark-mode .elementor-12 .elementor-element.elementor-element-3e9e930:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border: none;
+    }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+	body.dark-mode .elementor-10 .elementor-element.elementor-element-f8b5431:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+	background-position: center;
+	background-size: 100% 100%;
+}
+	body.dark-mode .elementor-10 .elementor-element.elementor-element-a1c44fb:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+	background-position: center;
+	background-size: 100% 100%;
+}
+	body.dark-mode .elementor-10 .elementor-element.elementor-element-a4226b8:not(.elementor-motion-effects-element-type-background) {
+	background-position: center;
+	background-size: 100% 100%;
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    body.dark-mode .elementor-13 .elementor-element.elementor-element-1b83bd4 > .elementor-element-populated {
+        background-position: center;
+        background-size: cover;
+    }
+    body.dark-mode .elementor-13 .elementor-element.elementor-element-b85078a > .elementor-element-populated {
+        background-position: center;
+        background-size: cover;
+    }
+    body.dark-mode .elementor-13 .elementor-element.elementor-element-3f3e455 > .elementor-element-populated {
+        background-position: center;
+        background-size: cover;
+    }
+    body.dark-mode .income-calculator-wrapper {
+        background-position: center;
+        background-size: cover;
+    }
+    body.dark-mode .home-testimonial-item {
+        background-position: center;
+        background-size: cover;
+    }
+    body.dark-mode .elementor-10 .elementor-element.elementor-element-f8b5431:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-size: cover;
+    }
+    body.dark-mode .elementor-10 .elementor-element.elementor-element-a1c44fb:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-size: cover;
+    }
+    body.dark-mode .header-menu-wrapper .hfe-nav-menu .menu-item a {
+        color: #000 !important;
+    }
+    body.dark-mode .elementor-12 .elementor-element.elementor-element-cf553a5:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border: none;
+    }
+    body.dark-mode .elementor-12 .elementor-element.elementor-element-565993c:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border: none;
+    }
+    body.dark-mode .elementor-12 .elementor-element.elementor-element-1f38c99:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border: none;
+    }
+    body.dark-mode .elementor-12 .elementor-element.elementor-element-3e9e930:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border: none;
+    }
+	body.dark-mode .elementor-10 .elementor-element.elementor-element-a4226b8:not(.elementor-motion-effects-element-type-background) {
+	background-position: center;
+	background-size: 100% 100%;
+}
+}
+
+/* Responsive CSS */
+@media (max-width: 767px) {
+
+    body.dark-mode .mobile-counter-item {
+		background-image: url('../hello-theme-child/assets/img/counter-box.png');
+        background-color: transparent;
+        background-position: inherit;
+        background-repeat: no-repeat;
+        background-size: cover;
+	}
+    body.dark-mode .step-slider-item {
+		background-image: url('../hello-theme-child/assets/img/step-one.png');
+        background-color: transparent;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+	}
+    body.dark-mode .swiper.step-active{
+        padding-top: 2px;
+    }
+    body.dark-mode .home-testimonial-item {
+        background-image: url('../hello-theme-child/assets/img/testimoniyal.png');
+        background-color: transparent;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    body.dark-mode .elementor-10 .elementor-element.elementor-element-f8b5431:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-image: url('../hello-theme-child/assets/img/defi-platform.png');
+        background-color: transparent;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    body.dark-mode .elementor-10 .elementor-element.elementor-element-a1c44fb:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-image: url('../hello-theme-child/assets/img/custodial.png');
+        background-color: transparent;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    body.dark-mode .elementor-10 .elementor-element.elementor-element-a4226b8:not(.elementor-motion-effects-element-type-background) {
+        background-image: url('../hello-theme-child/assets/img/cta-mobile.png') !important;
+        background-color: transparent;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        padding-bottom: 140px;
+        background-size: cover;
+    }
+    body.dark-mode .why-choose-slider-item {
+        background-image: url('../hello-theme-child/assets/img/why-choose-one.png');
+        background-color: transparent;
+        background-position: inherit;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    body.dark-mode .ol-price-table-wrapper {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+    }
+    body.dark-mode .ol-price-table-wrapper:hover::after {
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -1;
+        background-size: 100% 100%;
+    }
+    body.dark-mode .elementor-12 .elementor-element.elementor-element-cf553a5:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    body.dark-mode .elementor-12 .elementor-element.elementor-element-565993c:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    body.dark-mode .elementor-12 .elementor-element.elementor-element-238ca9d:not(.elementor-motion-effects-element-type-background) {
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    body.dark-mode .elementor-12 .elementor-element.elementor-element-f9e1140 > .elementor-element-populated {
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    body.dark-mode .elementor-12 .elementor-element.elementor-element-63d1ab8 > .elementor-element-populated {
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    body.dark-mode .elementor-12 .elementor-element.elementor-element-01107b4 > .elementor-element-populated {
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    body.dark-mode .elementor-12 .elementor-element.elementor-element-1f38c99:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    body.dark-mode .elementor-12 .elementor-element.elementor-element-3e9e930:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    body.dark-mode .ol-faq-tab-wrapper .elementor-accordion-item .elementor-tab-content::after {
+        width: 90%;
+    }
+    body.dark-mode .elementor-101 .footer-gradient-wrapper-bg.elementor-element.elementor-element-0bcf2a3 > .elementor-background-overlay{
+        background-image: none !important;
+    }
+    body.dark-mode .elementor-101 .elementor-element.elementor-element-d589221 > .elementor-widget-container {
+        border: 1px solid rgba(255, 255, 255, 0.20);
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 8px;
+    }
+    body.dark-mode .elementor-1996 .elementor-element.elementor-element-7a62b56:not(.elementor-motion-effects-element-type-background){
+        background-color: transparent;
+    }
+    body.dark-mode .elementor-101 .elementor-element.elementor-element-9531ae7 > .elementor-widget-container{
+        border: 1px solid rgba(255, 255, 255, 0.20);
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 8px;
+    }
+    body.dark-mode .elementor-2039 .elementor-element.elementor-element-47cb02e:not(.elementor-motion-effects-element-type-background){
+        background-color: transparent;
+    }
+    body.dark-mode .elementor-101 .elementor-element.elementor-element-b8dffe3 > .elementor-widget-container {
+        border: 1px solid rgba(255, 255, 255, 0.20);
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 8px;
+    }
+    body.dark-mode .elementor-2058 .elementor-element.elementor-element-ef4482a:not(.elementor-motion-effects-element-type-background){
+        background-color: transparent;
+    }
+    body.dark-mode .elementor-101 .elementor-element.elementor-element-0bcf2a3:not(.elementor-motion-effects-element-type-background), .elementor-101 .elementor-element.elementor-element-0bcf2a3 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        display: none;
+    }
+    body.dark-mode .elementor-101 .elementor-element.elementor-element-2e2e581:not(.elementor-motion-effects-element-type-background), .elementor-101 .elementor-element.elementor-element-2e2e581 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        display: none;
+    }
+    body.dark-mode .elementor-101 .elementor-element.elementor-element-9712197:not(.elementor-motion-effects-element-type-background), .elementor-101 .elementor-element.elementor-element-9712197 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        display: none;
+    }
+    body.dark-mode .elementor-101 .elementor-element.elementor-element-0db4652:not(.elementor-motion-effects-element-type-background), .elementor-101 .elementor-element.elementor-element-0db4652 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        background-color: #0D1421;
+        display: none;
+    }
+    .footer-for-dark-gradient{
+        display: none !important;
+    }
+    body.dark-mode   .footer-for-dark-gradient{
+        display: block !important;
+    }
+    .elementor-101 .elementor-element.elementor-element-2e2e581 > .elementor-background-overlay {
+        background-image: none !important;
+    }
+    .elementor-101 .elementor-element.elementor-element-bbaa484 > .elementor-widget-container {
+        border: 1px solid rgba(255, 255, 255, 0.20);
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 8px;
+    }
+    .elementor-101 .elementor-element.elementor-element-89b7f02 > .elementor-widget-container {
+        border: 1px solid rgba(255, 255, 255, 0.20);
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 8px;
+    }
+    .elementor-101 .elementor-element.elementor-element-5de7f94 > .elementor-widget-container {
+        border: 1px solid rgba(255, 255, 255, 0.20);
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 8px;
+    }
+    .elementor-101 .elementor-element.elementor-element-c27bce0:not(.elementor-motion-effects-element-type-background){
+        display: none;
+    }
+    body.dark-mode .elementor-101 .elementor-element.elementor-element-c27bce0:not(.elementor-motion-effects-element-type-background){
+        display: block;
+    }
+    body.dark-mode .income-calculator-wrapper {
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    body.dark-mode .elementor-element.elementor-element-236c9a2 .elementor-widget-container img {
+        display: none;
+    }
+    body.dark-mode .elementor-13 .elementor-element.elementor-element-1b83bd4 > .elementor-element-populated {
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    body.dark-mode .elementor-13 .elementor-element.elementor-element-b85078a > .elementor-element-populated {
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    body.dark-mode .elementor-13 .elementor-element.elementor-element-3f3e455 > .elementor-element-populated {
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    body.dark-mode .elementor-36 .elementor-element.elementor-element-a6f7ceb nav.hfe-dropdown{
+       background-color: #000815;
+    }
+    body.dark-mode .elementor-11 .elementor-element.elementor-element-801eee0:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-position: inherit;
+        background-size: cover;
+    }
+    body.dark-mode .elementor-11 .elementor-element.elementor-element-6bbefa8:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-position: inherit;
+        background-size: cover;
+    }
+    body.dark-mode .elementor-11 .elementor-element.elementor-element-ac4a29c:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-position: inherit;
+        background-size: cover;
+    }
+    body.dark-mode .elementor-11 .elementor-element.elementor-element-43fcb45:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-position: inherit;
+        background-size: cover;
+    }
+    body.dark-mode .elementor-11 .elementor-element.elementor-element-213a85c:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-position: inherit;
+        background-size: cover;
+    }
+    body.dark-mode .elementor-11 .elementor-element.elementor-element-36fece4:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-position: inherit;
+        background-size: cover;
+    }
+    body.dark-mode .elementor-11 .elementor-element.elementor-element-cce354a:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-position: inherit;
+        background-size: cover;
+    }
+    body.dark-mode .elementor-11 .elementor-element.elementor-element-3cfc313:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        background-position: inherit;
+        background-size: cover;
+    }
+    .daily_pricing_two .ol-price-table-wrapper {
+        height: auto;
+    }
+    .ol-price-table-area {
+        padding: 15px;
+    }
+    .ol-price-table-title h2 {
+        font-size: 55px;
+    }
+	.ol-price-table-head h3 {
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 1.3;
+	}
+    .ol-price-table-area-content p {
+        font-size: 20px;
+    }
+    .ol-price-table-area-content span {
+        font-size: 20px;
+    }
+    body.dark-mode .ol-faq-tab-wrapper .elementor-tabs-wrapper {
+        border-radius: 50px;
+        padding: 7px 0px;
+        width: auto;
+        margin: 0 auto;
+        display: flex !important;
+        justify-content: center;
+    }
+    body.dark-mode .ol-faq-tab-wrapper .elementor-tabs-wrapper .elementor-tab-title {
+        padding: 15px 10px 15px 10px !important;
+    }
+    body.dark-mode .elementor-10 .elementor-element.elementor-element-4946f71:not(.elementor-motion-effects-element-type-background) {
+        background-position: center;
+        background-image: url('../hello-theme-child/assets/img/dark-counter-bg.png');
+        background-size: 100% 100%;
+    }
+    .elementor-10 .elementor-element.elementor-element-2cb46d5 .elementor-custom-embed-play svg {
+        position: relative;
+        z-index: 99;
+        top: -22px;
+        left: 2px;
+    }
+    body.dark-mode .ol-offcanvas-menu button {
+        background: transparent!important;
+        background-position: center !important;
+        background-image: url('../hello-theme-child/assets/img/offcan-icon.png') !important;
+        background-size: 100% 100% !important;
+        border: none;
+    }
+    body.dark-mode .btn:active:focus {
+        box-shadow: none !important;
+    }
+    .elementor-13 .elementor-element.elementor-element-a6b0e5c .elementor-custom-embed-play svg {
+        top: -22px;
+        left: 2px;
+    }
+    .elementor-12 .elementor-element.elementor-element-6d1ec6a .elementor-custom-embed-play svg {
+        top: -22px;
+        left: 2px;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+@media (max-width: 1200px) and (min-width: 1025px){
+	.daily_pricing .elementor-container.elementor-column-gap-default {
+		flex-wrap: wrap;
+	}
+}
+
+
+
